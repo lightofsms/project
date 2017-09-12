@@ -1,0 +1,43 @@
+====> Starting LoggerTest on lightofsms with PID 6824 (started by yss in D:\file\project\springboot)
+====> No active profile set, falling back to default profiles: default
+====> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 14:57:10 CST 2017]; root of context hierarchy
+====> HV000001: Hibernate Validator 5.3.5.Final
+====> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 14:57:10 CST 2017]; root of context hierarchy
+====> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+====> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+====> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Started LoggerTest in 3.55 seconds (JVM running for 4.644)
+====> name:yss,passwd:root
+====> error
+====> warn
+====> Closing org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 14:57:10 CST 2017]; root of context hierarchy
+====> Starting LoggerTest on lightofsms with PID 9404 (started by yss in D:\file\project\springboot)
+====> No active profile set, falling back to default profiles: default
+====> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 14:58:08 CST 2017]; root of context hierarchy
+====> HV000001: Hibernate Validator 5.3.5.Final
+====> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 14:58:08 CST 2017]; root of context hierarchy
+====> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+====> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+====> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Started LoggerTest in 3.626 seconds (JVM running for 4.783)
+====> name:yss,passwd:root
+====> Closing org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 14:58:08 CST 2017]; root of context hierarchy
+====> Starting LoggerTest on lightofsms with PID 1200 (started by yss in D:\file\project\springboot)
+====> No active profile set, falling back to default profiles: default
+====> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 15:00:39 CST 2017]; root of context hierarchy
+====> HV000001: Hibernate Validator 5.3.5.Final
+====> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 15:00:39 CST 2017]; root of context hierarchy
+====> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+====> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+====> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+====> Started LoggerTest in 4.093 seconds (JVM running for 5.252)
+====> name:yss,passwd:root
+====> error
+====> warn
+====> Closing org.springframework.web.context.support.GenericWebApplicationContext@37858383: startup date [Tue Sep 12 15:00:39 CST 2017]; root of context hierarchy
