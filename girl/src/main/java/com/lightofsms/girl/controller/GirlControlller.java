@@ -16,18 +16,18 @@ import java.util.List;
 
 
 @RestController
-public class IndexController {
+public class GirlControlller {
 
-    private final static Logger logger = LoggerFactory.getLogger(IndexController.class);
+    private final static Logger logger = LoggerFactory.getLogger(GirlControlller.class);
 
     @Resource
     private
     GirlServiceImpl girlService;
 
     @PostMapping("/girl")
-    public Result<Girl> add(@Valid Girl girl, BindingResult bindingResult) throws Exception {
+    public Result<? extends Girl> add(@Valid Girl girl, BindingResult bindingResult) throws Exception {
         if (bindingResult.hasErrors()) {
-            return new Result(0, bindingResult.getFieldError().getDefaultMessage(), null);
+            return new Result<Girl>(0, bindingResult.getFieldError().getDefaultMessage(), null);
         }
 
         return new Result<>(1, "成功",girlService.save(girl));
