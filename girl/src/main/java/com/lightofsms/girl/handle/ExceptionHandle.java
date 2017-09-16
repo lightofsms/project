@@ -12,6 +12,8 @@ public class ExceptionHandle {
     @ExceptionHandler
     @ResponseBody
     public Result handle(Exception e) {
+
+        System.out.println("controllerException->");
         if (e instanceof GirlException) {
             return new Result(((GirlException) e).getCode(), e.getMessage(), null);
         }

@@ -22,4 +22,9 @@ public enum ResultEnum {
         this.code = code;
         this.msg = msg;
     }
+
+    @Override
+    public String toString() {
+        return getCode() + getMsg();
+    }
 }

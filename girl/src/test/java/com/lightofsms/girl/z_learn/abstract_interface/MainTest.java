@@ -20,4 +20,14 @@ public class MainTest {
         hobby.playBall();
     }
 
+    //    多层引用
+    @Test
+    public void bigTset() {
+        Hobby hobby=  new TopPt("yang", "shisheng", 1000);
+
+        System.out.println();
+
+
+    }
+
 }

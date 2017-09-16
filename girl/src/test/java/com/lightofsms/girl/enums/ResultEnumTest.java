@@ -6,7 +6,7 @@ public class ResultEnumTest {
 
     @Test
     public void testEnum() {
-        System.out.println(ResultEnum.UNKONW_ERROR.getCode());
+        System.out.println(ResultEnum.UNKONW_ERROR.toString());
     }
 
 }
